@@ -1,0 +1,1 @@
+var t={code:"vi",week:{dow:1,doy:4},buttonText:{prev:"Trước",next:"Tiếp",today:"Hôm nay",year:"Năm",month:"Tháng",week:"Tuần",day:"Ngày",list:"Lịch biểu"},weekText:"Tu",allDayText:"Cả ngày",moreLinkText(e){return"+ thêm "+e},noEventsText:"Không có sự kiện để hiển thị"};export{t as default};

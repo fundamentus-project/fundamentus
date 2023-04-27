@@ -1,0 +1,1 @@
+var t={code:"mk",buttonText:{prev:"претходно",next:"следно",today:"Денес",year:"година",month:"Месец",week:"Недела",day:"Ден",list:"График"},weekText:"Сед",allDayText:"Цел ден",moreLinkText(e){return"+повеќе "+e},noEventsText:"Нема настани за прикажување"};export{t as default};

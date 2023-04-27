@@ -1,0 +1,1 @@
+var t={code:"ru",week:{dow:1,doy:4},buttonText:{prev:"Пред",next:"След",today:"Сегодня",year:"Год",month:"Месяц",week:"Неделя",day:"День",list:"Повестка дня"},weekText:"Нед",allDayText:"Весь день",moreLinkText(e){return"+ ещё "+e},noEventsText:"Нет событий для отображения"};export{t as default};

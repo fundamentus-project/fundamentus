@@ -1,0 +1,1 @@
+var a={code:"sk",week:{dow:1,doy:4},buttonText:{prev:"Predchádzajúci",next:"Nasledujúci",today:"Dnes",year:"Rok",month:"Mesiac",week:"Týždeň",day:"Deň",list:"Rozvrh"},weekText:"Ty",allDayText:"Celý deň",moreLinkText(e){return"+ďalšie: "+e},noEventsText:"Žiadne akcie na zobrazenie"};export{a as default};

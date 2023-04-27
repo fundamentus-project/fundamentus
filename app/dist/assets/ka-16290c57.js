@@ -1,0 +1,1 @@
+var t={code:"ka",week:{dow:1,doy:7},buttonText:{prev:"წინა",next:"შემდეგი",today:"დღეს",year:"წელიწადი",month:"თვე",week:"კვირა",day:"დღე",list:"დღის წესრიგი"},weekText:"კვ",allDayText:"მთელი დღე",moreLinkText(e){return"+ კიდევ "+e},noEventsText:"ღონისძიებები არ არის"};export{t as default};

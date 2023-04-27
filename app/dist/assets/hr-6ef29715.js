@@ -1,0 +1,1 @@
+var a={code:"hr",week:{dow:1,doy:7},buttonText:{prev:"Prijašnji",next:"Sljedeći",today:"Danas",year:"Godina",month:"Mjesec",week:"Tjedan",day:"Dan",list:"Raspored"},weekText:"Tje",allDayText:"Cijeli dan",moreLinkText(e){return"+ još "+e},noEventsText:"Nema događaja za prikaz"};export{a as default};

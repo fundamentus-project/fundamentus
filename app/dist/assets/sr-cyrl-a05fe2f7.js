@@ -1,0 +1,1 @@
+var t={code:"sr-cyrl",week:{dow:1,doy:7},buttonText:{prev:"Претходна",next:"следећи",today:"Данас",year:"Година",month:"Месец",week:"Недеља",day:"Дан",list:"Планер"},weekText:"Сед",allDayText:"Цео дан",moreLinkText(e){return"+ још "+e},noEventsText:"Нема догађаја за приказ"};export{t as default};

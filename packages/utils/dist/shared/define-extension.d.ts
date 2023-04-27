@@ -1,0 +1,10 @@
+import type { InterfaceConfig, DisplayConfig, LayoutConfig, ModuleConfig, PanelConfig, HookConfig, EndpointConfig, OperationAppConfig, OperationApiConfig } from '@directus/types';
+export declare function defineInterface<T extends InterfaceConfig>(config: T): T;
+export declare function defineDisplay<T extends DisplayConfig>(config: T): T;
+export declare function defineLayout<Options = any, Query = any>(config: LayoutConfig<Options, Query>): LayoutConfig<Options, Query>;
+export declare function defineModule<T extends ModuleConfig>(config: T): T;
+export declare function definePanel<T extends PanelConfig>(config: T): T;
+export declare function defineHook<T extends HookConfig>(config: T): T;
+export declare function defineEndpoint<T extends EndpointConfig>(config: T): T;
+export declare function defineOperationApp<T extends OperationAppConfig>(config: T): T;
+export declare function defineOperationApi<Options = Record<string, unknown>>(config: OperationApiConfig<Options>): OperationApiConfig<Options>;

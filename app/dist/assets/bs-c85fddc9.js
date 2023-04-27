@@ -1,0 +1,1 @@
+var a={code:"bs",week:{dow:1,doy:7},buttonText:{prev:"Prošli",next:"Sljedeći",today:"Danas",year:"Godina",month:"Mjesec",week:"Sedmica",day:"Dan",list:"Raspored"},weekText:"Sed",allDayText:"Cijeli dan",moreLinkText(e){return"+ još "+e},noEventsText:"Nema događaja za prikazivanje"};export{a as default};

@@ -1,0 +1,1 @@
+var t={code:"ro",week:{dow:1,doy:7},buttonText:{prev:"precedentă",next:"următoare",today:"Azi",year:"An",month:"Lună",week:"Săptămână",day:"Zi",list:"Agendă"},weekText:"Săpt",allDayText:"Toată ziua",moreLinkText(e){return"+alte "+e},noEventsText:"Nu există evenimente de afișat"};export{t as default};

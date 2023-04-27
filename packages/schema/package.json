@@ -1,0 +1,54 @@
+{
+	"name": "@directus/schema",
+	"version": "9.26.0",
+	"description": "Utility for extracting information about existing DB schema",
+	"type": "module",
+	"keywords": [
+		"sql",
+		"knex",
+		"schema",
+		"mysql",
+		"postgresql",
+		"cockroachdb",
+		"sqlite3",
+		"javascript"
+	],
+	"homepage": "https://directus.io",
+	"bugs": {
+		"url": "https://github.com/directus/directus/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/directus/directus.git",
+		"directory": "packages/schema"
+	},
+	"funding": "https://github.com/directus/directus?sponsor=1",
+	"license": "GPL-3.0",
+	"author": "Rijk van Zanten <rijkvanzanten@me.com>",
+	"exports": {
+		".": "./dist/index.js",
+		"./package.json": "./package.json",
+		"./types/overview": {
+			"types": "./dist/types/overview.d.ts",
+			"default": "./dist/types/overview.js"
+		}
+	},
+	"main": "dist/index.js",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsc --build",
+		"dev": "tsc --watch"
+	},
+	"dependencies": {
+		"knex": "2.4.2"
+	},
+	"devDependencies": {
+		"@directus/tsconfig": "0.0.7",
+		"typescript": "5.0.4"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}
