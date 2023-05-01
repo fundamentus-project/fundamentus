@@ -399,7 +399,7 @@ export class FieldsService {
 			if (hookAdjustedField.schema) {
 				const existingColumn = await this.schemaInspector.columnInfo(collection, hookAdjustedField.field);
 
-				if (!isEqual(sanitizeColumn(existingColumn), hookAdjustedField.schema)) {
+				if (!isEqual(sanitizeColumn(existingColumn), sanitizeColumn(hookAdjustedField.schema as Column))) {
 					try {
 						await this.knex.schema.alterTable(collection, (table) => {
 							if (!hookAdjustedField.schema) return;
